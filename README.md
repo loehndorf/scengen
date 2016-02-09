@@ -34,10 +34,10 @@ Optional Arguments:
 * df=double,...,double (required for Student)
 * method=(MonteCarlo, QuasiMonteCarlo, MomentMatching, QuantizationGrids, QuantizationLearning, VoronoiCellMonteCarlo)
 * seed=int
-* 
+
 The jar contains executables for the following two methods, which will be extracted in a subfolder upon first usage
 * [Moment matching](http://work.michalkaut.net/downloads.html) by Michal Kaut
-* [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch and Werner Römisch
+* [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch / Werner Römisch
 
 ### Source ###
 1. Clone the repository and import it into an IDE, e.g., Eclipse.
