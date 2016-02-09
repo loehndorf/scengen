@@ -8,8 +8,8 @@ of the methods for different stochastic optimization problems.
 The theory behind these methods as well as an empirical study that compares their performance is summarizes in this [working paper](loehndorf_2016_scenario_generation.pdf). 
 The numerical section of the paper is based on the numerical experiments that can be found in [src/main/java/scengen/paper/](src/main/java/scengen/paper/).
 
-### Installation ###
-The library is packaged as a jar and can be excecuted from the command line. 
+### Binary ###
+The library is packaged as an executable jar that can be run from the command line. 
 
 Examples:
 * Generate 7 scenarios from a normal distribution with mean 5 and standard deviation 2 using the quantization grids from the [optimal quantization website](http://www.quantize.maths-fi.com): </br>
@@ -18,12 +18,6 @@ java -jar scengen.jar dist=Normal dim=1 mean=10 cov=5 scen=7 method=Quantization
 java -jar scengen.jar dist=Normal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=QuasiMonteCarlo
 * Get 10 scenarios from a bivariate log-normal distribution with mean (1,1) and covariance (1,0.5,0.5,1) using moment matching: </br>
 java -jar scengen.jar dist=Lognormal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=MomentMatching
-
-The jar contains executables for the following two methods:
-* [Moment matching](http://work.michalkaut.net/downloads.html) by Michal Kaut
-* [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch and Werner Römisch
-
-These executables will be extracted in a subfolder upon first usage. These methods are also included with the project resources.
 
 Arguments:
 * dist=(Normal, Lognormal, Student, Uniform)
@@ -40,6 +34,10 @@ Optional Arguments:
 * df=double,...,double (required for Student)
 * method=(MonteCarlo, QuasiMonteCarlo, MomentMatching, QuantizationGrids, QuantizationLearning, VoronoiCellMonteCarlo)
 * seed=int
+* 
+The jar contains executables for the following two methods, which will be extracted in a subfolder upon first usage
+* [Moment matching](http://work.michalkaut.net/downloads.html) by Michal Kaut
+* [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch and Werner Römisch
 
 ### Source ###
 1. Clone the repository and import it into an IDE, e.g., Eclipse.
