@@ -22,6 +22,7 @@ java -jar scengen.jar dist=Lognormal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 
 The jar contains executables for the following two methods:
 * [Moment matching](http://work.michalkaut.net/downloads.html) by Michal Kaut
 * [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch and Werner Römisch
+
 These executables will be extracted in a subfolder upon first usage. These methods are also included with the project resources.
 
 Arguments:
