@@ -9,8 +9,7 @@ The theory behind these methods as well as an empirical study that compares thei
 The numerical section of the paper is based on the numerical experiments that can be found in [src/main/java/scengen/paper/](src/main/java/scengen/paper/).
 
 ### Installation ###
-The library is packaged as a jar and can be exceuted from the command line. It will extract two two subfolders upon first usage if moment matching
-or scenred2 is run, since these are accessed via their original executables.
+The library is packaged as a jar and can be excecuted from the command line. 
 
 Examples:
 * Generate 7 scenarios from a normal distribution with mean 5 and standard deviation 2 using the quantization grids from the [optimal quantization website](http://www.quantize.maths-fi.com): </br>
@@ -19,6 +18,11 @@ java -jar scengen.jar dist=Normal dim=1 mean=10 cov=5 scen=7 method=Quantization
 java -jar scengen.jar dist=Normal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=QuasiMonteCarlo
 * Get 10 scenarios from a bivariate log-normal distribution with mean (1,1) and covariance (1,0.5,0.5,1) using moment matching: </br>
 java -jar scengen.jar dist=Lognormal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=MomentMatching
+
+The jar contains executables for the following two methods:
+* [Moment matching](http://work.michalkaut.net/downloads.html) 
+* [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) 
+These executables will be extracted in a subfolder upon first usage. These methods are also included with the project resources.
 
 Arguments:
 * dist=(Normal, Lognormal, Student, Uniform)
