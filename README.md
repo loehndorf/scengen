@@ -13,11 +13,11 @@ The library is packaged as an executable jar that can be run from the command li
 
 Examples:
 * Generate 7 scenarios from a normal distribution with mean 5 and standard deviation 2 using the quantization grids from the [optimal quantization website](http://www.quantize.maths-fi.com): </br>
-java -jar scengen.jar dist=Normal dim=1 mean=10 cov=5 scen=7 method=QuantizationGrids
+`java -jar scengen.jar dist=Normal dim=1 mean=10 cov=5 scen=7 method=QuantizationGrids`
 * Get 20 scenarios from a bivariate normal distribution with mean (1,1) and covariance (1,0.5,0.5,1) using quasi-Monte Carlo: </br>
-java -jar scengen.jar dist=Normal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=QuasiMonteCarlo
+`java -jar scengen.jar dist=Normal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=QuasiMonteCarlo`
 * Get 10 scenarios from a bivariate log-normal distribution with mean (1,1) and covariance (1,0.5,0.5,1) using moment matching: </br>
-java -jar scengen.jar dist=Lognormal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=MomentMatching
+`java -jar scengen.jar dist=Lognormal dim=2 mean=(1,1) cov=(1,0.5,0.5,1) scen=20 method=MomentMatching`
 
 Arguments:
 * dist=(Normal, Lognormal, Student, Uniform)
