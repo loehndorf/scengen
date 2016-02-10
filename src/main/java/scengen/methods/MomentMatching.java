@@ -16,7 +16,7 @@ import main.java.scengen.tools.Xorshift;
 public class MomentMatching extends ReductionMethod {
 	
 	static String _sep = System.getProperty("file.separator");
-	static String _mmpath = System.getProperty("user.dir")+"/src/main/resources/mm/";
+	static String _mmpath = System.getProperty("user.dir")+"/bin/";
 	static String _userdir = System.getProperty("user.dir")+_sep;
 	long _time = System.nanoTime();
 	int _dim;

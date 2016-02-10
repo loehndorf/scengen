@@ -14,7 +14,7 @@ import java.util.Map;
 public class Scenred2 extends ReductionMethod {
 	
 	static String _sep = System.getProperty("file.separator");
-	static String _scenredpath = System.getProperty("user.dir")+"/src/main/resources/scenred2/";
+	static String _scenredpath = System.getProperty("user.dir")+"/bin/";
 	static String _userdir = System.getProperty("user.dir")+_sep;
 	
 	static int _timeLimit = 600; //seconds

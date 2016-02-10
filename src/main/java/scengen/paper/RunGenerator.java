@@ -16,6 +16,7 @@ import main.java.scengen.methods.QuantizationGrids;
 import main.java.scengen.methods.QuantizationLearning;
 import main.java.scengen.methods.QuasiMonteCarlo;
 import main.java.scengen.methods.ReductionMethod;
+import main.java.scengen.methods.Scenred2;
 import main.java.scengen.methods.VoronoiCellSampling;
 
 
@@ -24,7 +25,7 @@ public class RunGenerator {
 	public static void main(String... args) {
 		int dim = 2;
 		int numScen = 10;
-		print(makeScen(dim,numScen,DISTRIBUTION.Normal,METHOD.QuasiMonteCarlo,new Random()),dim);
+		print(makeScen(dim,numScen,DISTRIBUTION.Normal,METHOD.MomentMatching,new Random()),dim);
 	}
 
 	public static Map<double[],Double> makeScen(int dim, int numScen, DISTRIBUTION dist, METHOD method, Random rand) {

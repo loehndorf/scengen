@@ -1,5 +1,0 @@
-report_level 1
-runtime_limit 600
-read_scen Y:\Documents\Work\Repos\scenred\scenred2_in.txt
-scen_red Y:\Documents\Work\Repos\scenred\scenred2_param.txt
-out_scen Y:\Documents\Work\Repos\scenred\scenred2out.txt

@@ -14,5 +14,12 @@
   		<artifactId>commons-math3</artifactId>
   		<version>3.2</version>
   	</dependency>
+  	<dependency>
+	    <groupId>com.google</groupId>
+	    <artifactId>or-tools</artifactId>
+	    <version>2015-12</version>
+	    <scope>system</scope>
+	    <systemPath>${project.basedir}/src/main/resources/ortools/com.google.ortools.jar</systemPath>
+	</dependency>
   </dependencies>
 </project>

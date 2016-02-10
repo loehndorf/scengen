@@ -47,7 +47,6 @@ public class Generator {
 	 * @param args 
 	 */
 	public static void main (String... args) {
-		args = new String[]{"dist=Normal","dim=2","mean=5,10","cov=50,25,25,100","scen=10","method=QuasiMonteCarlo"};
 		_seed = new Xorshift().nextLong();
 		Map<String,String> table = makeTable(args);
 		if (!table.containsKey("dist"))
@@ -119,7 +118,7 @@ public class Generator {
 						cov[i][j] = Double.parseDouble(scov[j+i*dim]);
 				double[] scale = new double[dim];
 				for (int i=0; i<dim; i++) 
-					scale[i] = Math.sqrt(cov[i][i]*3/5);
+					scale[i] = Math.sqrt(cov[i][i]*3./5.);
 				dist = new MultivariateStudent(mean,scale,getCorrelationMatrix(cov),df,new Xorshift(seed));
 			}
 			else {
