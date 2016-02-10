@@ -1,0 +1,9 @@
+This software is distributed under the Eclipse Public License,
+see http://www.eclipse.org/legal/epl-v10.html
+and http://en.wikipedia.org/wiki/Eclipse_Public_License
+
+The code should be cited as
+"A Heuristic for Moment-matching Scenario Generation",
+Kjetil Høyland, Michal Kaut and Stein W. Wallace,
+Computational Optimization and Applications, 24 (2-3), pp. 169185, 2003.
+doi:10.1023/A:1021853807313
