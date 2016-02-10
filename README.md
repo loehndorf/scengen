@@ -5,7 +5,7 @@ This project aims at bringing the most important methods for scenario generation
 comes with a stadardized interface for different methods and distributions, as well as with a number of test problems to study the performance
 of the methods for different stochastic optimization problems.
 
-The methods themselves as well as an empirical study that compares their performance is summarized in this [working paper](http://www.optimization-online.org/DB_HTML/2015/05/4913.html). The numerical section of the paper is based on the numerical experiments that can be found in [src/main/java/scengen/paper/](src/main/java/scengen/paper/).
+The methods themselves as well as an empirical study that compares their performance is summarized in this [working paper](http://www.optimization-online.org/DB_HTML/2016/02/5319.html). The numerical section of the paper is based on the numerical experiments that can be found in [src/main/java/scengen/paper/](src/main/java/scengen/paper/).
 
 ### Binary ###
 The library is packaged as an [executable jar](http://nils.loehndorf.com/scengen/scengen.jar) that can be run from the command line. 
