@@ -31,7 +31,7 @@ Optional Arguments:
 * correl=double,...double (flat array of the full matrix, required for Uniform and Student)
 * scale=double,...,double (required for Student)
 * df=double,...,double (required for Student)
-* method=(MonteCarlo, QuasiMonteCarlo, MomentMatching, QuantizationGrids, QuantizationLearning, VoronoiCellMonteCarlo)
+* method=(MonteCarlo, QuasiMonteCarlo, MomentMatching, QuantizationGrids, QuantizationLearning, VoronoiCellSampling)
 * seed=int
 
 The jar contains executables for the following two methods, which will be extracted in a subfolder upon first usage
