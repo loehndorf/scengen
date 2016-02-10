@@ -30,31 +30,6 @@ public class MultivariateStudent extends MultivariateNormal {
 		}
 	}
 	
-//	public static void main (String... args) {
-//		int dim = 2;
-//		int numScen = 100;
-//		double[] mean = new double[dim];
-//		double[] scale = new double[dim];
-//		double[] df = new double[dim];
-//		double[][] cov = new double[dim][dim];
-//		for (int i=0; i<dim; i++) {
-//			df[i] = 5;
-//			mean[i] = 0;
-//			scale[i] = 1;
-//			cov[i][i] = 1;
-////			for (int j=0; j<dim; j++)
-////				if (i!=j) cov[i][j] = -0.5;
-//		}
-//		MultivariateDistribution mvdist = new MultivariateStudent(mean,scale,cov,df,new Random());
-//		Matrix.print(mvdist.getCov());
-//		MultivariateStatistics stat = new MultivariateStatistics(dim);
-//		for (int i=0;i<1000000; i++)
-//			stat.add(mvdist.getRealization());
-//		Matrix.print(stat.getCovariance());
-//		System.out.println(Arrays.toString(mvdist.getKurtosis()));
-//	}
-
-	
 	@Override
 	public double[] getRealization() {
 		double[] z = new double[_dim];

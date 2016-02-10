@@ -58,25 +58,5 @@ public class VoronoiCellSampling extends QuantizationLearning {
 		return map;
 	}
 	
-//	@Override
-//	public Map<double[],Double> getScenarios(int numScen) {
-//		Map<double[],Double> mathfiMap = super.getScenarios(numScen);
-//		MetricTree<double[]> tree = new MetricTree<>(super._mvdist.getDim());
-//		for (double[] x : mathfiMap.keySet())
-//			tree.add(x, x);
-//		//randomly sample from voronoi cells
-//		Map<double[],double[]> builderMap = new LinkedHashMap<>();
-//		while (mathfiMap.size()>builderMap.size()) {
-//			double[] x = super._mvdist.getRealization();
-//			double[] nearest = tree.get(x);
-//			if (!builderMap.containsKey(nearest)) 
-//				builderMap.put(nearest,x);
-//		}
-//		Map<double[],Double> resultMap = new LinkedHashMap<>();
-//		for (double[] nearest : builderMap.keySet())
-//			resultMap.put(builderMap.get(nearest),mathfiMap.get(nearest));
-//		return resultMap;
-//	}
-	
 
 }

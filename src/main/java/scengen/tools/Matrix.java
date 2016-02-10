@@ -100,19 +100,6 @@ public class Matrix extends Array2DRowRealMatrix {
 		return new Matrix(B.getData());
 	}
 	
-//	public Matrix normalize() {
-//		Matrix out = new Matrix(getRowDimension(), getColumnDimension());
-//		MultivariateStatistics stat = MultivariateStatistics.createFromSample(getData());
-//		double[] mean = stat.getMean();
-//		double[] std = stat.getStandardDeviation();
-//		for (int i=0; i<getRowDimension(); i++) 
-//			for (int j=0; j<getColumnDimension(); j++) {
-//				out.setEntry(i, j, (getEntry(i,j)-mean[j])/std[j]);
-//			}
-//		return out;	
-//	}
-
-	
 	/**
 	 * 
 	 * @param other another Matrix

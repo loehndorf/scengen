@@ -15,8 +15,6 @@ import main.java.scengen.distribution.MultivariateNormal;
 
 public class QuantizationGrids extends ReductionMethod {
 
-//	static String _sep = System.getProperty("file.separator");
-//	static String _path = System.getProperty("user.dir")+_sep+"src/main/resources/vq/";
 	MultivariateNormal _normal;
 	int _dim;
 	
@@ -31,10 +29,6 @@ public class QuantizationGrids extends ReductionMethod {
 		Map<double[],Double> map = new LinkedHashMap<>();
 		try {
 			String filename = String.format("%d_%d_%s",numScen,_dim,_dim>1?"nopti":"dualopti");
-//			System.out.println(filename);
-//			FileInputStream stream = new FileInputStream(filename);
-//			URL url = getClassLoader().getResource(filename); 
-//			InputStream stream = url.openStream(); 
 			InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream(filename);
 			BufferedReader br = new BufferedReader(new InputStreamReader(stream));
 			String s;
