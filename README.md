@@ -34,14 +34,14 @@ Optional Arguments:
 * method=(MonteCarlo, QuasiMonteCarlo, MomentMatching, QuantizationGrids, QuantizationLearning, VoronoiCellSampling)
 * seed=int
 
-The jar contains executables for the following two methods, which will be extracted in a subfolder upon first usage
+The required executables for the following two methods must be available in a subfolder bin/
 * [Moment matching](http://work.michalkaut.net/downloads.html) by Michal Kaut
 * [Scenred2](https://www.gams.com/help/index.jsp?topic=%2Fgams.doc%2Ftools%2Fscenred2%2Findex.html) by Holger Heitsch / Werner Römisch
 
 ### Source ###
 1. Clone the repository and import it into an IDE, e.g., Eclipse.
-2. Include the jar that is found under src/main/resources/ortools/ into your build path.
-3. Add src/main/resources/ortools/ to the built path and src/main/resources/vc/ to class path.
+2. Add lib/ to build path.
+3. Add src/main/resources/vc/ to class path.
 
 ### Copyright ###
 The code is released under GPL v3.
