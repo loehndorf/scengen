@@ -2,7 +2,7 @@
 
 An important aspect of stochastic optimization is finding a set of scenarios of the random variables that is representative but still enumerable.
 This project aims at bringing the most important methods for scenario generation together to make them accessible as well as comparable. The project
-comes with a stadardized interface for different methods and distributions, as well as with a number of test problems to study the performance
+comes with a standardized interface for different methods and distributions, as well as with a number of test problems to study the performance
 of the methods for different stochastic optimization problems.
 
 The methods themselves as well as an empirical study that compares their performance is summarized in this [working paper](http://www.optimization-online.org/DB_HTML/2016/02/5319.html). The numerical section of the paper is based on the numerical experiments that can be found in [src/main/java/scengen/paper/](src/main/java/scengen/paper/).
@@ -44,4 +44,4 @@ The required executables for the following two methods must be available in a su
 3. Add src/main/resources/vc/ to class path.
 
 ### Copyright ###
-The code is released under GPL v3.
+The code is released under MIT license.
