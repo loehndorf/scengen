@@ -42,6 +42,3 @@ The required executables for the following two methods must be available in a su
 1. Clone the repository and import it into an IDE, e.g., Eclipse.
 2. Add lib/ to build path.
 3. Add src/main/resources/vc/ to class path.
-
-### Copyright ###
-The code is released under MIT license.
