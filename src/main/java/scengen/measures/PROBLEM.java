@@ -1,4 +1,4 @@
-package main.java.scengen.measures;
+package scengen.measures;
 
 public enum PROBLEM {
 	MultiNewsvendor, RiskAverseNewsvendor

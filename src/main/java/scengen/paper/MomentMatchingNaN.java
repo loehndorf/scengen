@@ -1,4 +1,4 @@
-package main.java.scengen.paper;
+package scengen.paper;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
@@ -11,17 +11,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import main.java.scengen.application.Generator;
-import main.java.scengen.distribution.DISTRIBUTION;
-import main.java.scengen.distribution.MultivariateDistribution;
-import main.java.scengen.distribution.MultivariateLognormal;
-import main.java.scengen.distribution.MultivariateNormal;
-import main.java.scengen.distribution.MultivariateStudent;
-import main.java.scengen.distribution.MultivariateUniform;
-import main.java.scengen.measures.CovarianceDiscrepancy;
-import main.java.scengen.methods.METHOD;
-import main.java.scengen.tools.Statistics;
-import main.java.scengen.tools.Xorshift;
+import scengen.application.Generator;
+import scengen.distribution.DISTRIBUTION;
+import scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateLognormal;
+import scengen.distribution.MultivariateNormal;
+import scengen.distribution.MultivariateStudent;
+import scengen.distribution.MultivariateUniform;
+import scengen.measures.CovarianceDiscrepancy;
+import scengen.methods.METHOD;
+import scengen.tools.Statistics;
+import scengen.tools.Xorshift;
 
 public class MomentMatchingNaN {
 	

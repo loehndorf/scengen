@@ -1,4 +1,4 @@
-package main.java.scengen.paper;
+package scengen.paper;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
@@ -7,14 +7,14 @@ import java.io.OutputStreamWriter;
 import java.util.Map;
 import java.util.Random;
 
-import main.java.scengen.application.Generator;
-import main.java.scengen.distribution.MultivariateDistribution;
-import main.java.scengen.distribution.MultivariateNormal;
-import main.java.scengen.measures.WassersteinDistance;
-import main.java.scengen.methods.METHOD;
-import main.java.scengen.methods.MonteCarlo;
-import main.java.scengen.tools.Statistics;
-import main.java.scengen.tools.Xorshift;
+import scengen.application.Generator;
+import scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateNormal;
+import scengen.measures.WassersteinDistance;
+import scengen.methods.METHOD;
+import scengen.methods.MonteCarlo;
+import scengen.tools.Statistics;
+import scengen.tools.Xorshift;
 
 public class QuantizationGridBench {
 	

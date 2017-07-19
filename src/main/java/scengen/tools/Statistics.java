@@ -1,4 +1,4 @@
-package main.java.scengen.tools;
+package scengen.tools;
 
 import java.io.Serializable;
 

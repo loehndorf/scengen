@@ -1,4 +1,4 @@
-package main.java.scengen.distribution;
+package scengen.distribution;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Random;
 
 import umontreal.ssj.probdist.NormalDistQuick;
-import main.java.scengen.methods.MonteCarlo;
-import main.java.scengen.methods.ReductionMethod;
+import scengen.methods.MonteCarlo;
+import scengen.methods.ReductionMethod;
 
 public class MultivariateNormal implements MultivariateDistribution {
 	

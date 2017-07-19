@@ -1,4 +1,4 @@
-package main.java.scengen.distribution;
+package scengen.distribution;
 
 public enum DISTRIBUTION {
 	Lognormal, Normal, Student, Uniform

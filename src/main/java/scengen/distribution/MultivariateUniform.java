@@ -1,4 +1,4 @@
-package main.java.scengen.distribution;
+package scengen.distribution;
 
 import java.util.Arrays;
 import java.util.Random;

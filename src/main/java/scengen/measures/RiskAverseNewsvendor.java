@@ -1,4 +1,4 @@
-package main.java.scengen.measures;
+package scengen.measures;
 
 import java.util.Iterator;
 import java.util.Map;

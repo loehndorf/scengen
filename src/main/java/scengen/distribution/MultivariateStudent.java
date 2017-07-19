@@ -1,10 +1,7 @@
-package main.java.scengen.distribution;
+package scengen.distribution;
 
 import java.util.Random;
-
 import umontreal.ssj.probdist.StudentDistQuick;
-
-
 
 public class MultivariateStudent extends MultivariateNormal {
 	

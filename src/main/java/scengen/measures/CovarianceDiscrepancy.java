@@ -1,8 +1,8 @@
-package main.java.scengen.measures;
+package scengen.measures;
 
 import java.util.Map;
 
-import main.java.scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateDistribution;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.EigenDecomposition;

@@ -1,4 +1,4 @@
-package main.java.scengen.tools.kdtree;
+package scengen.tools.kdtree;
 
 import java.util.Arrays;
 import java.util.Iterator;

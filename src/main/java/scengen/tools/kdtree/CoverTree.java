@@ -17,7 +17,7 @@
  *
  */
 
-package main.java.scengen.tools.kdtree;
+package scengen.tools.kdtree;
 
 import java.util.Collections;
 import java.util.LinkedList;

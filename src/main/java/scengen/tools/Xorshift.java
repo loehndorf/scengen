@@ -1,4 +1,4 @@
-package main.java.scengen.tools;
+package scengen.tools;
 
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;

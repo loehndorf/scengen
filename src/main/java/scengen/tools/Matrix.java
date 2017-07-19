@@ -1,4 +1,4 @@
-package main.java.scengen.tools;
+package scengen.tools;
 
 import org.apache.commons.math3.exception.DimensionMismatchException;
 import org.apache.commons.math3.exception.NotStrictlyPositiveException;

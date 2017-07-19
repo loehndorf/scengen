@@ -1,24 +1,24 @@
-package main.java.scengen.application;
+package scengen.application;
 
 
 import java.util.HashMap;
 import java.util.Map;
 
-import main.java.scengen.distribution.MultivariateDistribution;
-import main.java.scengen.distribution.MultivariateLognormal;
-import main.java.scengen.distribution.MultivariateNormal;
-import main.java.scengen.distribution.MultivariateStudent;
-import main.java.scengen.distribution.MultivariateUniform;
-import main.java.scengen.methods.METHOD;
-import main.java.scengen.methods.MomentMatching;
-import main.java.scengen.methods.MonteCarlo;
-import main.java.scengen.methods.QuantizationGrids;
-import main.java.scengen.methods.QuantizationLearning;
-import main.java.scengen.methods.QuasiMonteCarlo;
-import main.java.scengen.methods.ReductionMethod;
-import main.java.scengen.methods.Scenred2;
-import main.java.scengen.methods.VoronoiCellSampling;
-import main.java.scengen.tools.Xorshift;
+import scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateLognormal;
+import scengen.distribution.MultivariateNormal;
+import scengen.distribution.MultivariateStudent;
+import scengen.distribution.MultivariateUniform;
+import scengen.methods.METHOD;
+import scengen.methods.MomentMatching;
+import scengen.methods.MonteCarlo;
+import scengen.methods.QuantizationGrids;
+import scengen.methods.QuantizationLearning;
+import scengen.methods.QuasiMonteCarlo;
+import scengen.methods.ReductionMethod;
+import scengen.methods.Scenred2;
+import scengen.methods.VoronoiCellSampling;
+import scengen.tools.Xorshift;
 
 /**
  * <p>The Generator class implements a simple interface to generate a reduced set of scenarios from different multivariate probability distributions.</p>

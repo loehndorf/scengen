@@ -1,4 +1,4 @@
-package main.java.scengen.paper;
+package scengen.paper;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,9 +13,9 @@ import java.util.Random;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import main.java.scengen.distribution.DISTRIBUTION;
-import main.java.scengen.methods.METHOD;
-import main.java.scengen.tools.Xorshift;
+import scengen.distribution.DISTRIBUTION;
+import scengen.methods.METHOD;
+import scengen.tools.Xorshift;
 
 public class MakeGraphs {
 
