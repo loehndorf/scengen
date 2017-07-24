@@ -1,4 +1,4 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -9,9 +9,9 @@ import java.net.URL;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.scengen.distribution.DISTRIBUTION;
-import main.java.scengen.distribution.MultivariateDistribution;
-import main.java.scengen.distribution.MultivariateNormal;
+import scengen.distribution.DISTRIBUTION;
+import scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateNormal;
 
 public class QuantizationGrids extends ReductionMethod {
 

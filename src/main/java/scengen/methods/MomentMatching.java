@@ -1,4 +1,4 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -11,7 +11,7 @@ import java.io.OutputStreamWriter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.scengen.tools.Xorshift;
+import scengen.tools.Xorshift;
 
 public class MomentMatching extends ReductionMethod {
 	

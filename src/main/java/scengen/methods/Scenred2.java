@@ -1,4 +1,4 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

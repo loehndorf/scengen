@@ -3,7 +3,30 @@
   <groupId>com.loehndorf</groupId>
   <artifactId>scengen</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>scengen.application.Generator</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
   	<dependency>
   		<groupId>ca.umontreal.iro.simul</groupId>
   		<artifactId>ssj</artifactId>
@@ -21,5 +44,11 @@
 	    <scope>system</scope>
 	    <systemPath>${project.basedir}/src/main/resources/ortools/com.google.ortools.jar</systemPath>
 	</dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.7</version>
+        <scope>test</scope>
+    </dependency>
   </dependencies>
 </project>

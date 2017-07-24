@@ -1,4 +1,4 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import umontreal.ssj.hups.PointSetIterator;
 import umontreal.ssj.hups.SobolSequence;
 import umontreal.ssj.rng.MRG32k3a;
 import umontreal.ssj.rng.RandomStream;
-import main.java.scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateDistribution;
 
 public class QuasiMonteCarlo extends ReductionMethod {
 	

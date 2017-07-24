@@ -1,13 +1,13 @@
-package main.java.scengen.measures;
+package scengen.measures;
 
 import java.util.Collection;
 import java.util.Map;
 
-import main.java.scengen.distribution.MultivariateLognormal;
-import main.java.scengen.distribution.MultivariateNormal;
-import main.java.scengen.distribution.MultivariateStudent;
-import main.java.scengen.distribution.MultivariateUniform;
-import main.java.scengen.methods.ReductionMethod;
+import scengen.distribution.MultivariateLognormal;
+import scengen.distribution.MultivariateNormal;
+import scengen.distribution.MultivariateStudent;
+import scengen.distribution.MultivariateUniform;
+import scengen.methods.ReductionMethod;
 
 public class MultiNewsvendor implements DecisionProblem {
 	

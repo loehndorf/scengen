@@ -1,12 +1,12 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.scengen.distribution.MultivariateDistribution;
-import main.java.scengen.tools.Metrics;
+import scengen.distribution.MultivariateDistribution;
+import scengen.tools.Metrics;
 
 public class VoronoiCellSampling extends QuantizationLearning {
 	

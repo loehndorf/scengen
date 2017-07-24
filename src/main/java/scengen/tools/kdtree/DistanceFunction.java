@@ -1,4 +1,4 @@
-package main.java.scengen.tools.kdtree;
+package scengen.tools.kdtree;
 
 public interface DistanceFunction {
     public double distance(double[] p1, double[] p2);

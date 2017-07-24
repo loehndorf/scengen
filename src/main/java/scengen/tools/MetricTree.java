@@ -1,4 +1,4 @@
-package main.java.scengen.tools;
+package scengen.tools;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.scengen.tools.kdtree.KdTree;
-import main.java.scengen.tools.kdtree.SquaredEuclidean;
+import scengen.tools.kdtree.KdTree;
+import scengen.tools.kdtree.SquaredEuclidean;
 
 
 /**

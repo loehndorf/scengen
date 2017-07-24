@@ -1,4 +1,4 @@
-package main.java.scengen.measures;
+package scengen.measures;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-import main.java.scengen.tools.Metrics;
+import scengen.tools.Metrics;
 
 public class WassersteinDistance  {
 	
@@ -132,7 +132,7 @@ public class WassersteinDistance  {
 	
 	public static double getLowerBound(int dim, Map<double[],Double> scen, Collection<double[]> sample) {
 		int sampleSize = sample.size();
-		main.java.scengen.tools.MetricTree<Cluster> tree = new main.java.scengen.tools.MetricTree<>(dim);
+		scengen.tools.MetricTree<Cluster> tree = new scengen.tools.MetricTree<>(dim);
 		for (double[] x : scen.keySet())
 			tree.add(x, new Cluster(x,scen.get(x)*sampleSize));
 		double distance = 0.;
@@ -145,7 +145,7 @@ public class WassersteinDistance  {
 
 	public static double getUpperBound(int dim, Map<double[],Double> scen, Collection<double[]> sample) {
 		int sampleSize = sample.size();
-		main.java.scengen.tools.MetricTree<Cluster> tree = new main.java.scengen.tools.MetricTree<>(dim);
+		scengen.tools.MetricTree<Cluster> tree = new scengen.tools.MetricTree<>(dim);
 		for (double[] x : scen.keySet())
 			tree.add(x, new Cluster(x,scen.get(x)*sampleSize));
 		double distance = 0.0;
@@ -155,7 +155,7 @@ public class WassersteinDistance  {
 			double dec2 = next.decrement(dec1);
 			while (dec1!=dec2) {
 				distance += dec2*Metrics.squaredDistance(next.center,x);
-				main.java.scengen.tools.MetricTree<Cluster> tree2 = new main.java.scengen.tools.MetricTree<>(dim);
+				scengen.tools.MetricTree<Cluster> tree2 = new scengen.tools.MetricTree<>(dim);
 				for (Cluster c : tree.getAll())
 					if (c != next)
 						tree2.add(c.center, new Cluster(c.center,c.weight));

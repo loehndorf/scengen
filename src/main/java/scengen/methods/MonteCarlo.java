@@ -1,9 +1,9 @@
-package main.java.scengen.methods;
+package scengen.methods;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.scengen.distribution.MultivariateDistribution;
+import scengen.distribution.MultivariateDistribution;
 
 public class MonteCarlo extends ReductionMethod {
 	
