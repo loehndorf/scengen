@@ -1,4 +1,4 @@
-# SCENARIO GENERATION FOR STOCHASTIC OPTIMIZATION #
+# SCENARIO GENERATION FOR STOCHASTIC PROGRAMMING #
 
 An important aspect of stochastic optimization is finding a set of scenarios of the random variables that is representative but still enumerable.
 This project aims at bringing the most important methods for scenario generation together to make them accessible as well as comparable. The project
